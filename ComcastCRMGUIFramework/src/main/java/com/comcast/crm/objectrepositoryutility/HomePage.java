@@ -17,12 +17,12 @@ public class HomePage
 	}
 	
 	@FindBy(linkText="Products")
-	private WebElement productLink;
+	private WebElement productLnk;
 	
 	
 public WebElement getProductLink() 
 {
-		return productLink;
+		return productLnk;
 	}
 
 @FindBy(linkText="Organizations")
