@@ -31,15 +31,15 @@ public class CreateContactTest extends BaseClass {
 		/* Read TestScript data from Excel file*/
 		String lastName = eLib.getDataFromExcel("contact", 1, 2) + jLib.getRandomNumber();
         // Navigate to contact module 
-		/*
-		 * HomePage hp=new HomePage(driver);
-		 * hp.getContactLink().click();
-		 * 
-		 */
+		
+		 HomePage hp=new HomePage(driver);
+		  hp.getContactLink().click();
+		  
+		 
 		
 		// click on  "create contact" Button 
 		ContactPage1 cp = new ContactPage1(driver);
-		cp.navigateToContactsLink();
+		//cp.navigateToContactsLink();
 		cp.createContact();
 		cp.getLastName().sendKeys(lastName);
 		cp.getSaveButton().click();

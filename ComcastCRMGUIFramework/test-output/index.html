@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Satpal Singh\AppData\Local\Temp\testng-eclipse-1869875013\testng-customsuite.xml</span>
+                    <span>C:\Users\Satpal Singh\AppData\Local\Temp\testng-eclipse--728864942\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.crm.comcast.orgtest.CreateOrgTest" class="method navigator-link" hash-for-method="createOrgTest">createOrgTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.crm.comcast.contacttest.CreateContactTest" class="method navigator-link" hash-for-method="createContact">createContact</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.crm.comcast.orgtest.CreateOrgTest</span>
+              <span class="class-name">com.crm.comcast.contacttest.CreateContactTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createOrgTest">
-                  </a> <!-- createOrgTest -->
-                  <span class="method-name">createOrgTest</span>
+                  <a name="createContact">
+                  </a> <!-- createContact -->
+                  <span class="method-name">createContact</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Satpal Singh\AppData\Local\Temp\testng-eclipse-1869875013\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Satpal Singh\AppData\Local\Temp\testng-eclipse--728864942\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,11 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.crm.comcast.orgtest.CreateOrgTest&quot;&gt;
+      &lt;class name=&quot;com.crm.comcast.contacttest.CreateContactTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;createOrgTest&quot;/&gt;
+          &lt;include name=&quot;createContact&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.crm.comcast.orgtest.CreateOrgTest --&gt;
+      &lt;/class&gt; &lt;!-- com.crm.comcast.contacttest.CreateContactTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -178,7 +178,7 @@
               <span class="test-group-name">smokeTest</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">createOrgTest</span>
+                <span class="method-in-group-name">createContact</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -200,14 +200,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createOrgTest')
-data.setCell(0, 2, 'com.crm.comcast.orgtest.CreateOrgTest')
-data.setCell(0, 3, 9902);
+data.setCell(0, 1, 'createContact')
+data.setCell(0, 2, 'com.crm.comcast.contacttest.CreateContactTest')
+data.setCell(0, 3, 8728);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -222,13 +222,15 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.crm.comcast.orgtest.CreateOrgTest</span>
+              <span class="ignored-class-name">com.crm.comcast.contacttest.CreateContactTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">createContactWithPhoneNumber</span>
+                <span class="ignored-method-name">createContactWithsupportDate</span>
+                <br/>
+                <span class="ignored-method-name">createContactWithOrgTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -240,34 +242,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.comcast.orgtest.CreateOrgTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.crm.comcast.contacttest.CreateContactTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">configBS</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">configBC</span>
-                <span class="method-start">434 ms</span>
+                <span class="method-start">280 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">configBM</span>
-                <span class="method-start">5597 ms</span>
+                <span class="method-start">2645 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">createOrgTest</span>
-                <span class="method-start">9920 ms</span>
+                <span class="method-name">createContact</span>
+                <span class="method-start">6020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">configAM</span>
-                <span class="method-start">19830 ms</span>
+                <span class="method-start">14748 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">configAC</span>
-                <span class="method-start">21403 ms</span>
+                <span class="method-start">16301 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">configAS</span>
-                <span class="method-start">21716 ms</span>
+                <span class="method-start">16615 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
