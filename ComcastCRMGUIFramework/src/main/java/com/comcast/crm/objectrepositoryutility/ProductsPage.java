@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class ProductsPage 
 {
+	// This is Products Page
 public WebElement getCreateProductImgBtn() {
 		return createProductImgBtn;
 	}
